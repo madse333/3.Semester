@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Yatzy.css" />
+        <script src="Yatzy.js" defer></script>
+        <title>Yatzy</title>
+    </head>
+    <body>
+        <div class="grids-container">
+            <input type="range" min="0" max="100" value="10" id="audioSlider">
+            <div class="grid-container">
+                <div class="grid-dice">
+                    <img class="dice" id="dice" src="Dices/Dice1.png"/>
+                </div> 
+                <div class="grid-dice">
+                    <img class="dice" id="dice" src="Dices/Dice2.png"/>
+                </div> 
+                <div class="grid-dice">
+                    <img class="dice" id="dice" src="Dices/Dice3.png"/>
+                </div> 
+                <div class="grid-dice">
+                    <img class="dice" id="dice" src="Dices/Dice4.png"/>
+                </div> 
+                <div class="grid-dice">
+                    <img class="dice" id="dice" src="Dices/Dice5.png"/>
+                </div>
+                <div class="grid-hold">
+                    <input class="hold" type="checkbox">
+                </div>
+                <div class="grid-hold">
+                    <input class="hold" type="checkbox">
+                </div>
+                <div class="grid-hold">
+                    <input class="hold" type="checkbox">
+                </div>
+                <div class="grid-hold">
+                    <input class="hold" type="checkbox">
+                </div>
+                <div class="grid-hold">
+                    <input class="hold" type="checkbox">
+                </div>
+                <div id="turn-lbl-container">
+                    <img class="pumpkin" src="Giffer/Pumpkin.png">
+                    <label class="label" id="turn-lbl">0</label>
+                </div>
+                <div class="grid-title"><label class="label">Choose Your Fate</label></div>
+                <div class="button"><button id="button"><img class="skull" src="Giffer/toppng.com-skull-523x790.png"></button></div>
+            </div>
+            <div class="grid-score-container">
+                <div class="label">1-s</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">2-s</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">3-s</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">4-s</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">5-s</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">6-s</div>
+                <div class="grid-itemNoSpan"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Score:</div>
+                <div class="grid-item"><input class="input-score" size="2" placeholder="0" readonly></div>
+                <div class="label">Bonus:</div>
+                <div class="grid-item"><input class="input-bonus" size="2" placeholder="0" readonly></div>
+                <div class="label">One pair</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Two pairs</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Three same</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Four same</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Full house</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Small straight</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Large straight</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Chance</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/bfT.gif"></div>
+                <div class="label">Yatzy</div>
+                <div class="grid-item"><input class="input" size="2" placeholder="0" readonly><img class="point-gif" src="Giffer/skeleton-dancing.gif"></div>
+                <div class="label">Total:</div>
+                <div class="grid-item"><input class="input-total" size="2" placeholder="0" readonly></div>
+            </div>
+        </div>
+    </body>
+</html>
